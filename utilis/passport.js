@@ -2,7 +2,7 @@
  * @Author: AngelaDaddy 
  * @Date: 2018-02-03 13:25:57 
  * @Last Modified by: AngelaDaddy
- * @Last Modified time: 2018-02-03 13:56:25
+ * @Last Modified time: 2018-02-03 14:18:56
  * @Description: passport定义
   */
 const passport = require('passport')
@@ -10,8 +10,6 @@ const passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy
 
 const User = require('../models/user')
-
-
 
 module.exports = (app) => { 
 
